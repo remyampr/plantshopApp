@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Home from "./component/Home.jsx";
 import CategoryPage from "./component/CategoryPage.jsx";
+import ErrorPage from "./component/ErrorPage.jsx";
 import { Provider } from "react-redux";
 import CartPage from "./component/CartPage.jsx";
 import ProductDetails from "./component/ProductDetails.jsx";
