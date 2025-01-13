@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import store from './Redux/store.jsx'
+import store from "./Redux/store.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -17,12 +17,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/category/:category", element: <CategoryPage /> },
-      { path: "/product-details/:productId", element: <ProductDetails/> },
+      { path: "/product-details/:productId", element: <ProductDetails /> },
 
-      { path: "/cart", element: <CartPage/> },
+      { path: "/cart", element: <CartPage /> },
     ],
   },
 ]);
