@@ -13,10 +13,10 @@ const products=useSelector((state)=>state.products.products);
 const product = products.find((p) => p.id === Number(productId));
 
 if (!product) {
-  console.log("inside Product details products array  :",products);
-  console.log("inside Product details product :",product);
-  console.log("inside Product details url id: ",productId);
-  console.log("inside Product details url id type: ",typeof(productId));
+  // console.log("inside Product details products array  :",products);
+  // console.log("inside Product details product :",product);
+  // console.log("inside Product details url id: ",productId);
+  // console.log("inside Product details url id type: ",typeof(productId));
   return <p>Product not found!</p>;
  
 }
