@@ -58,6 +58,7 @@ const handleSearch=(event)=>{
                 src="/icon/logo.png" 
                 alt="Plant Shop" 
                 className="h-8 logo-img"
+                loading='lazy'
               />
               Pantora
             </Navbar.Brand>

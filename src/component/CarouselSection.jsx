@@ -9,6 +9,7 @@ const CarouselSection = () => {
           className="d-block w-100"
           src="/images/carousel5.jpg"
           alt="Snake"
+          loading="lazy"
         />
         <Carousel.Caption className="carousel-caption-soft">
           <h3>Serenity in Simplicity</h3>
@@ -21,6 +22,7 @@ const CarouselSection = () => {
           className="d-block w-100"
           src="/images/carousel1.jpg"
           alt="Pruning Shears"
+          loading="lazy"
         />
         <Carousel.Caption className="carousel-caption-soft">
           <h3>Breathe in Green</h3>
@@ -33,6 +35,7 @@ const CarouselSection = () => {
           className="d-block w-100"
           src="/images/carousel6.jpg"
           alt="spiderplant"
+          loading="lazy"
         />
         <Carousel.Caption className="carousel-caption-soft">
           <h3>In Every Leaf, a Story</h3>

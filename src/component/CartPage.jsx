@@ -48,6 +48,7 @@ const CartPage = () => {
                       className="cart-plant-card-image"
                       src={`/images/${item.image}`}
                       alt={item.name}
+                      loading="lazy"
                     />
                   </Col>
                   <Col md={8}>

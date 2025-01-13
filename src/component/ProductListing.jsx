@@ -38,6 +38,7 @@ if (!Array.isArray(products) || products.length === 0) {
                         src={`/images/${product.image}`} 
                         alt={product.name}
                         className="plant-card-image"
+                        loading="lazy"
                       
                       />
                       <Card.Body>
